@@ -10,7 +10,7 @@ html, body {
     z-index: 11!important;
 }
 .form-control {
-    width: 75%!important;
+    width: 79%!important;
     border-radius: 4rem!important;
 }
 
@@ -90,7 +90,7 @@ html, body {
         border-radius: 15px;
         background-color: #828282;
         color: #ffffff;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
     }
     .container_date{
@@ -111,6 +111,7 @@ html, body {
             display: flex;
             justify-content: center;
             align-items: center;
+            border: solid 1px black;
         }
         .date{
             box-sizing: border-box;
