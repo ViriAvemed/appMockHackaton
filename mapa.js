@@ -5,9 +5,9 @@ let markers;
 let filtered=[];
 let map;
 let marker;
-let myPrice= document.querySelector(".precio");
-let myConnector=document.querySelector(".conector");
-let myState=document.querySelector(".estado");
+let myPrice= document.querySelector(".precio")
+let myConnector=document.querySelector(".conector")
+let myState=document.querySelector(".estado")
 
 // Yael
 //FUncion para imprimir las tarjetas
@@ -177,12 +177,12 @@ const dibujarMapa = (obj, locationsInfo) => {
 
 
 myPrice.addEventListener("click", (e) => {
-    selectedPrice = event.target.innerText;
-    selectedPrice=selectedPrice.slice(1);
-    console.log(`Holis, el precio es ${event.target.innerText}`);
+    selectedPrice = event.target.innerText
+    selectedPrice=selectedPrice.slice(1)
+    console.log(`Holis, el precio es ${event.target.innerText}`)
     filtered=locationsInfo.filter(location => location.costo === selectedPrice);
     console.log(filtered);
-    target(filtered);
+    target(filtered)
 
 
         navigator.geolocation.getCurrentPosition((data)=>{
